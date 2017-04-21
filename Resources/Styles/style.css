@@ -1,0 +1,630 @@
+body {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+}
+ul {
+	padding: 0;
+}
+section {
+	padding: 125px 0;
+}
+header {
+	background: url(../Images/header_bar.png) no-repeat center bottom #0e1828;
+}
+.header-logo-hbbtv { 
+	background: url(../Images/logo/logo_hybrydowa.png) no-repeat center center;
+	width: 177px;
+	height: 26px;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.footer-logo-hbbtv {
+	background: url(../Images/logo/logo_hybrydowa.png) no-repeat center center;
+	height: 26px;
+	width: 177px;
+}
+.footer-logo-hbbtv-a {
+	background: none;
+	display: block;
+	padding: 20px 40px;
+}
+header a {
+	color: #fff;
+}
+h2 {
+	font-size: 48px;
+	margin-bottom: 38px;
+}
+.footer {
+	background: #0e1828;
+	padding: 10px 0;
+}
+.footer-links a {
+	color: #7787a0;
+	background: url(../Images/footer_arrow.png) no-repeat center left;
+	padding-left: 10px;
+}
+.footer li {
+	list-style-type: none;
+}
+.intro {
+	background: url(../Images/bg/s1_bg.png) no-repeat center bottom #0e1828;
+}
+.what-is {
+	background: url(../Images/bg/s2_bg.png) no-repeat center center #ebebeb;
+}
+.lead-line {
+	height: 3px;
+	width: 115px;
+	margin: 50px auto;
+}
+.navy-blue {
+	background: #0e1828;
+}
+.white {
+	background: #fff;
+}
+#what-is h2 {
+	color: #0e1828;
+}
+#functionality h2,
+#set-tv h2,
+#installation .col-lg-12 h2 {
+	color: #fff;
+}
+#what-is h2,
+#functionality h2,
+#set-tv h2,
+#installation h2,
+#second_screen h2 {
+	font-weight: 700;
+	font-size: 52px;
+}
+#set-tv p {
+	font-weight: 300;
+	line-height: 24px;
+}
+#what-is p {
+	color: #7787a0;
+	font-weight: 300;
+	line-height: 24px;
+}
+.tv-settings-ok {
+	background: url(../Images/tv-settings.png) no-repeat center center;
+	width: 100%;
+	height: 460px;
+	background-size: 102%;
+}
+.functionality {
+	background: url(../Images/bg/chill.png) no-repeat center center #2b8859;
+}
+.functionality-lead {
+	font-size: 18px;
+	font-weight: 700;
+}
+.functionality-desc {
+	font-weight: 00;
+}
+.functionality-image {
+	height: 160px;
+}
+.icon-epg {
+	background: url(../Images/icon/icon_epg_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-epg:hover {
+	background: url(../Images/icon/icon_epg_off.png) no-repeat center center;
+}
+.icon-radio {
+	background: url(../Images/icon/icon_radio_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-radio:hover {
+	background: url(../Images/icon/icon_radio_off.png) no-repeat center center;
+}
+.icon-calendar {
+	background: url(../Images/icon/icon_calendar_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-calendar:hover {
+	background: url(../Images/icon/icon_calendar_off.png) no-repeat center center;
+}
+.icon-more {
+	background: url(../Images/icon/icon_more_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-more:hover {
+	background: url(../Images/icon/icon_more_off.png) no-repeat center center;
+}
+.icon-weather {
+	background: url(../Images/icon/icon_weather_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-weather:hover {
+	background: url(../Images/icon/icon_weather_off.png) no-repeat center center;
+}
+.icon-vod {
+	background: url(../Images/icon/icon_vod_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-vod:hover {
+	background: url(../Images/icon/icon_vod_off.png) no-repeat center center;
+}
+.icon-sport {
+	background: url(../Images/icon/icon_sport_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-sport:hover {
+	background: url(../Images/icon/icon_sport_off.png) no-repeat center center;
+}
+.icon-chat {
+	background: url(../Images/icon/icon_chat_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-chat:hover {
+	background: url(../Images/icon/icon_chat_off.png) no-repeat center center;
+}
+.icon-games {
+	background: url(../Images/icon/icon_games_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-games:hover {
+	background: url(../Images/icon/icon_games_off.png) no-repeat center center;
+}
+.icon-quote {
+	background: url(../Images/icon/icon_quote_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-quote:hover {
+	background: url(../Images/icon/icon_quote_off.png) no-repeat center center;
+}
+.icon-sync {
+	background: url(../Images/icon/icon_sync_on.png) no-repeat center center;
+	transition: background 1s;
+}
+.icon-sync:hover {
+	background: url(../Images/icon/icon_sync_off.png) no-repeat center center;
+}
+.set-tv {
+	background: url(../Images/bg/tv_frame.png) no-repeat center center #d6af62;
+}
+.see-move {
+	background: url(../Images/seemovie.png) no-repeat center center;
+	height: 131px;
+	margin-bottom: 32px;
+}
+.see-move-black {
+	background: url(../Images/seemovie_b.png) no-repeat center center;
+	height: 131px;
+	margin-bottom: 32px;
+}
+.ytplayer {
+	border: 3px solid #fff;
+}
+.ytplayer-black {
+	border: 3px solid #2e2e2e;
+}
+.installation {
+	background: url(../Images/bg/s5_bg.png)no-repeat center center #4c87c3;
+}
+#installation .col-lg-3{
+	padding: 0;
+}
+.second-screen {
+	background: url(../Images/bg/s6_bg.png) no-repeat center center #b12e2e;
+}
+.s1_img {
+	background: url(../Images/s1_img.png) no-repeat center center;
+	width: 100%;
+	height: 617px;
+	position: absolute;
+	right: -55px;
+	top: -91px;
+}
+.s1_arrow_down {
+	background: url(../Images/s1_arrow_down.png) no-repeat center center;
+	width: 100%;
+	height: 30px;
+	display: block;
+}
+.footer-contact {
+	float: right;
+	padding: 60px 0;
+}
+.footer-email a {
+	background: none;
+	font-size: 12px;
+	padding: 0;
+	color: #7787a0;
+}
+.footer-email {
+	text-align: center;
+	margin-top: 8px;
+}
+.footer-logos,
+.footer-links {
+	float: left;
+}
+.footer-links {
+	margin-top: 8px;
+}
+.footer-logos {
+	width: 40%;
+}
+.icon-bar {
+	background-color: #fff;
+}
+
+.intro .intro-item > div {
+	width: 100%;
+	height: 200px;
+}
+.footer-logos > div > div{
+	height: 43px;
+	width: 60px;
+	float: left;
+}
+.footer-logos > div {
+	margin: 20px;
+	float: left;
+}
+.logo-hbbtv {
+	background: url(../Images/logo/logo_hbbtv.png) no-repeat center center;
+	height: 150px;
+	margin-top: 35px;
+}
+
+#intro h1 {
+	font-size: 100px;
+	font-weight: 100;
+}
+.intro-img {
+	position: relative;
+	min-height: 400px;
+}
+.intro-item-8tv {
+	width: 100% !important;
+}
+#intro-hh {
+	background: url(../Images/logo/logo_hh.png) no-repeat center center;
+}
+.foot-hh {
+	background: url(../Images/foot/foot_hh.png) no-repeat center center;
+}
+#intro-8tv {
+	background: url(../Images/logo/logo_8tv.png) no-repeat center center;
+}
+.foot-8tv {
+	background: url(../Images/foot/foot_8tv.png) no-repeat center center;
+}
+#intro-nowatv {
+	background: url(../Images/logo/logo_nowatv.png) no-repeat center center;
+}
+.foot-nowatv {
+	background: url(../Images/foot/foot_nowatv.png) no-repeat center center;
+}
+#intro-eska{
+	background: url(../Images/logo/logo_eskatv.png) no-repeat center center;
+}
+.foot-eska  {
+	background: url(../Images/foot/foot_eska.png) no-repeat center center;
+}
+#intro-fokus {
+	background: url(../Images/logo/logo_fokus.png) no-repeat center center;
+}
+.foot-fokus {
+	background: url(../Images/foot/foot_fokus.png) no-repeat center center;
+}
+#intro-polotv {
+	background: url(../Images/logo/logo_polo.png) no-repeat center center;
+}
+.foot-polo {
+	background: url(../Images/foot/foot_polotv.png) no-repeat center center;
+}
+#intro-vox {
+	background: url(../Images/logo/logo_vox.png) no-repeat center center;
+}
+.foot-vox {
+	background: url(../Images/foot/foot_voxtv.png) no-repeat center center; 
+}
+.installation .installation-item > div:first-child{
+	width: 100%;
+	height: 263px;
+	background-size: 293px 293px;
+	opacity: 0.3;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+	border: 1px solid #fff;
+}
+.installation .installation-item > div:first-child:hover {
+	opacity: 1;
+}
+.logo-samsung {
+	background: url(../Images/logo/logo_samsung.png) no-repeat center center;
+}
+.logo-sony {
+	background: url(../Images/logo/logo_sony.png) no-repeat center center;
+}
+.logo-lg {
+	background: url(../Images/logo/logo_lg.png) no-repeat center center;
+}
+.logo-panasonic {
+	background: url(../Images/logo/logo_panasonic.png) no-repeat center center;
+}
+.logo-philips {
+	background: url(../Images/logo/logo_philips.png) no-repeat center center;
+}
+.logo-sharp {
+	background: url(../Images/logo/logo_sharp.png) no-repeat center center;
+}
+.logo-thomson {
+	background: url(../Images/logo/logo_thomson.png) no-repeat center center;
+}
+.logo-toshiba {
+	background: url(../Images/logo/logo_toshiba.png) no-repeat center center;
+}
+.header-hbbtv .navbar-nav > .page-scroll.active > a, 
+.header-hbbtv .navbar-nav > .active > a:focus, 
+.header-hbbtv .navbar-nav > .page-scroll > a:hover {
+	border-top: 2px solid #c0331a;
+}
+.header-hbbtv .navbar-nav > .page-scroll > a {
+	border-top: 2px solid #0E1828;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	background: transparent;
+}
+
+.navbar-fixed-top {
+	transition: padding 0.3s ease 0s;
+	padding: 14px 0;
+}
+.navbar-shrink {
+	padding: 0;
+}
+.navbar-fixed-top .navbar-brand {
+	font-size: 24px;
+	 transition: font-size 0.3s ease 0s;
+}
+
+.navbar-fixed-top.navbar-shrink .navbar-brand {
+	font-size: 18px;
+}
+
+.yt-icon {
+	background: url(../Images/youtube.png) no-repeat center center;
+	width: 100%;
+	height: 182px;
+	display: none;
+}
+@media (max-width: 414px) {
+	.logo-hbbtv {
+		background-size: 100%;
+	}
+	.yt-icon {
+		display: block;
+		background-size: 50%;
+	}
+	.ytplayer-black {
+		display: none;
+	}
+	.navbar-fixed-bottom, .navbar-fixed-top {
+		position: relative;
+	}
+	.navbar {
+		margin-bottom: 0;
+	}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+	.embed-video-left {
+		width: 100%;
+	}
+	.logo-hbbtv {
+		height: 200px;
+	}
+
+	.functionality {
+		padding: 0;
+	}
+	.installation{
+		padding: 80px 0;
+	}
+	.installation .installation-item > div:first-child {
+		height: 200px;
+	}
+	h2 {
+		margin-bottom: 18px;
+	}
+	section {
+		padding: 100px 0;
+	}
+	.intro-img {
+		display: none;
+	}
+	#intro h1 {
+		font-size: 50px;
+	}
+	.footer-logo-hbbtv {
+		margin-right: 38px;
+	}
+	.functionality-image {
+		background-size: 60%;
+	}
+	.functionality-image:hover {
+		background-size: 60%;
+	}
+	.install-logo {
+		background-size: 213px 213px !important;
+	}
+	.functionality-item {
+		height: 100%;
+	}
+	#what-is h2, #functionality h2, #set-tv h2, #installation h2, #second_screen h2 {
+		font-size: 34px;
+	}
+}
+@media (max-width: 768px){
+	.s1_img {
+		right: 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+	}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+.modal-body p,
+.modal-title {
+	color: #000;
+}
+
+.footer-links li{
+	text-align: left;
+}
+.embed-video {
+	text-align: center;
+	margin-top: 25px;
+}
+.installation .lead {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.s5-arrow-down {
+	background: url(../Images/s5_arrow_down.png) no-repeat center center;
+	height: 13px;
+	margin-left: 14px;
+	width: 25px;
+	display: inline-block;
+}
+.modal-content {
+	border-radius: 0;
+}
+.modal-title {
+	font-size: 30px;
+	font-weight: 300;
+}
+.modal-body li p {
+	color: #7787a0;
+	font-size: 15px;
+	font-weight: 300;
+}
+.modal-body li {
+	font-size: 30px;
+	font-weight: 700;
+	color: #0e1828;
+}
+.modal-close {
+	background: url(../Images/modal_close.png) no-repeat center center;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	display: block;
+}
+.modal-dialog {
+	width: 790px;
+}
+.modal-content { 
+	padding: 50px;
+}
+.modal-end-h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #0e1828;
+}
+.modal-end-txt {
+	font-size: 20px;
+	font-weight: 300;
+	color: #7787a0;
+}
+.modal-close-btn {
+	margin-top: 8px;
+	right: 290px;
+	position: relative;
+}
+.functionality-item {
+	width: 50%;
+	float: left;
+}
+.intro-item {
+	width: 50%;
+	float: left;
+}
+.installation-item {
+	width: 50%;
+	float: left;
+}
+.top-header {
+	padding-bottom: 8px;
+}
+.installation-item:hover {
+	cursor: pointer;
+}
