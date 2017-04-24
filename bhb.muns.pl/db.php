@@ -1,7 +1,7 @@
 <?php 
-	$servername = "23129.m.tld.pl";
-	$username = "admin23129_bhb";
+	$servername = "temp_servername";
+	$username = "temp_username";
 	$password = "8Ox923c6(2";
-	$dbname = "baza23129_bhb";
+	$dbname = "temp_dbname";
 	$conn = new mysqli($servername, $username, $password, $dbname);
 ?>
