@@ -1,6 +1,6 @@
 <?php
 	// Establishing Connection with Server by passing server_name, user_id and password as a parameter
-	$connection = mysql_connect("23129.m.tld.pl", "admin23129_bhb", "8Ox923c6(2");
+	$connection = mysql_connect("temp_servername", "temp_user", "8Ox923c6(2");
 	// Selecting Database
 	$db = mysql_select_db("baza23129_bhb", $connection);
 	session_start();// Starting Session
