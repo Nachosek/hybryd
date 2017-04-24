@@ -1,0 +1,145 @@
+body{  
+  	color: #6a6c6f;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f3f6;
+}
+
+.login-container {
+    margin: auto;
+    max-width: 420px;
+    padding-top: 6%;
+}
+.content-panel {
+	margin: auto;
+    max-width: 730px;
+    padding-top: 6%;
+}
+.hpanel {
+    border: medium none;
+    box-shadow: none;
+    margin-bottom: 25px;
+}
+.hpanel .panel-body {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e4e5e7;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+}
+.m-b-md {
+    margin-bottom: 20px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #e4e5e7;
+}
+.nav {
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav > li {
+    display: block;
+    position: relative;
+}
+
+.nav-tabs > li > a {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    line-height: 1.42857;
+    margin-right: 2px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e4e5e7 #e4e5e7 transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.tab-content > .active, .pill-content > .active {
+    display: block;
+}
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+    display: none;
+}
+
+.tab-pane .panel-body {
+    border-top: medium none;
+}
+
+.logo a{
+	background: url(../img/logo.png) center center no-repeat;
+	background-size: 200px 200px;
+	display: block;
+    height: 200px;
+}
+.small-logo a {
+    background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll center center / 66px 66px;
+    display: block;
+    float: left;
+    height: 80px;
+    width: 85px;
+}
+.small-logo {
+	margin-left: -18px;
+}
+
+.grey-dark {
+	background: #222;
+	color: #fff;
+}
+.grey-dark:hover {
+	background: #777;
+}
+.content-panel .panel-heading {
+	margin-bottom: 8px;
+}
+
+.action-icon i, 
+#logout i {
+	font-size: 16px;
+}
+.action-icon:first-child {
+	margin-right: 8px;
+}
+
+.icheckbox_square-green, .iradio_square-green {
+    background: rgba(0, 0, 0, 0) url("img/green.png") no-repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 22px;
+}
+.icheckbox_square-green {
+    background-position: 0 0;
+}
+.icheckbox_square-green.hover {
+    background-position: -24px 0;
+}
+.icheckbox_square-green.checked {
+    background-position: -48px 0;
+}
+.icheckbox_square-green.disabled {
+    background-position: -72px 0;
+    cursor: default;
+}
+.icheckbox_square-green.checked.disabled {
+    background-position: -96px 0;
+}
